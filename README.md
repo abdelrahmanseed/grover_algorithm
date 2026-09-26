@@ -33,7 +33,6 @@ The oracle is given a marked state so we can study the amplification. For an act
 
 Both implementations run locally on a classical computer. They illustrate Grover's algorithm, but do not demonstrate a runtime speedup over classical search. Full statevector simulation stores $2^n$ amplitudes; the dense matrices in the NumPy example store $4^n$ entries each. Recording the circuit's evolution adds simulation work, so keep the examples small.
 
-My next step is to try a small circuit on IBM hardware and see how noise affects the result.
 
 ## References
 
